@@ -1,5 +1,5 @@
 
-from calculator import Calculator
+from woss.calculator import Calculator
 
 def test_add():
     calc = Calculator()
