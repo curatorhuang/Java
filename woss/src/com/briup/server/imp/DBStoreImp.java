@@ -111,8 +111,8 @@ public class DBStoreImp implements DBStore,ConfigurationAWare{
 
 	@Override
 	public void setConfiguration(Configuration cfig) {
-		back = cfig.getBackup();
-		log = cfig.getLogger();
-		logger = log.getServerLogger();
-	}
+		  back = cfig.getBackup();
+          log = cfig.getLogger();
+          logger = log.getServerLogger();
+    }
 }
