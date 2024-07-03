@@ -1,6 +1,6 @@
 
 import unittest
-from calculator import Calculator
+from woss.calculator import Calculator
 
 class TestCalculator(unittest.TestCase):
     def setUp(self):
