@@ -81,7 +81,7 @@ public class DBStoreImp implements DBStore,ConfigurationAWare{
 				}
 			}
 			conn.commit();
-			logger.info("数据插入成功");
+			logger.info("数据成功");
 		} catch (Exception e) {
 			e.printStackTrace();
 			try {
