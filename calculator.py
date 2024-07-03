@@ -15,9 +15,6 @@ class Calculator:
 
         return a / b
 
-    def cube(self, a):
-        return a ** 3
-
 
 if __name__ == "__main__":
     calc = Calculator()
@@ -29,6 +26,3 @@ if __name__ == "__main__":
         calc.divide(5, 0)
     except ValueError as e:
         print("Division by zero error:", e)
-
-    print("Cube (3^3):", calc.cube(3))
-
